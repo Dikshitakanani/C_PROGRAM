@@ -12,13 +12,13 @@ sum of even nomber :25
 int main()
 {
 	
-	int a[10]={1,2,3,4,5,6,7,8,9,10};
+	int a[10]={1,3,2,4,5,6,5,7,6,8};
 	int i;
 	int even=0,odd=0;
 
 	for(i=0; i < 10; i++)
 	{
-		if(i%2==0)
+		if(a[i]%2==0)
 		{
 			even+=a[i];
 		}
